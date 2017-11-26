@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Montserrat);
+body {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 1.9em;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.em;
+}
+
+hr {
+  width: 150px;
+  border: 0;
+  border-top: 3px solid #f00;
+  margin-bottom: 20px;
+}
+
+#id {
+  font-size: 1.5em;
+  margin: 1em 0 0;
+}
+
+#session, #break {
+  font-family: Lato;
+  font-size: 2.2em;
+}
+
+#ticker {
+  font-family: Lato;
+  font-size: 6em;
+  margin: 0.2em 0 0.3em;
+  cursor: pointer;
+  display: inline-block;
+  border: 3px solid #000;
+  border-radius: 6px;
+  padding: 0.05em 0.2em 0.1em 0.2em;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.plusminus {
+  font-family: Lato;
+  font-size: 2em;
+}
+
+.reset {
+  font-family: Montserrat;
+  font-size: 1.5em;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+}
+
+.control {
+  display: inline;
+}
+
+.screen {
+  display: inline-block;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+}

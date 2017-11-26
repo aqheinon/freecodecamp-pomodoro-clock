@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Pomodoro Clock</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Pomodoro Timer</h1>
+<hr>
+
+<div class="screen">
+  <p id="id"></p><p id="ticker" onclick="toggleTicToc()"></p>
+</div>
+<div class="dashboard">
+  <div class="control">
+    <button class="btn plusminus" onclick="sessionLength(-1)">-</button>
+    <span id="session"></span>
+    <button class="btn plusminus" onclick="sessionLength(1)">+</button>
+    <p>session</p>
+  </div>
+ <button class="btn reset" onclick="resetTicker()">reset</button>
+  <div class="control">
+    <button class="btn plusminus" onclick="breakLength(-1)">-</button>
+    <span id="break"></span>
+    <button class="btn plusminus" onclick="breakLength(1)">+</button>
+    <p>break</p>
+  </div>
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
